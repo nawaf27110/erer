@@ -19,5 +19,5 @@
   [plugins.inputs.minifierOptions]
     removeComments = true
     removeEmptyAttributes = true
-    removeOptionalTags = true
+
 
