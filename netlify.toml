@@ -5,5 +5,14 @@
 [build.environment]
   NODE_VERSION = "18"
 
+[[plugins]]
+  package = "netlify-plugin-js-obfuscator"
 
+  [plugins.inputs]
+    # يمكنك هنا وضع الإعدادات الخاصة بالتشويش إذا توفرت.
+    # على سبيل المثال:
+    compact = true
+    controlFlowFlattening = true
+    debugProtection = false
+    deadCodeInjection = false
 
